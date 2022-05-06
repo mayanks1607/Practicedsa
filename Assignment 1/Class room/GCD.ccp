@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 int gcd(int a, int b){
-    cin >> a >> b;
     if(b>a){
         swap(a,b);
     }
@@ -14,5 +13,7 @@ int gcd(int a, int b){
       return b;
 }
 int main() {
-    cout << gcd(124,28);
+    int a ,b;
+    cin >> a >> b;
+    cout << gcd(a,b);
 }
