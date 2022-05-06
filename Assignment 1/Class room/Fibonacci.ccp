@@ -16,5 +16,7 @@ void fibo(int number){
  
  
 int main(){
-    fibo(40);
+    int n;
+    cin>>n;
+    fibo(n);
 }
